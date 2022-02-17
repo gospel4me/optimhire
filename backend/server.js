@@ -12,7 +12,7 @@ app.use(cors());
 
 app.use('/api', apiRoutes);
 
-const CONNECTION_URL= "mongodb://localhost:27017/"
+const CONNECTION_URL= "mongodb+srv://tracy:upJesus1996@cluster0.9zbdr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const PORT = process.nextTick.PORT || 5000
 
 mongoose.connect(CONNECTION_URL ,{
